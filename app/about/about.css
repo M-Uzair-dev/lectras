@@ -12,8 +12,10 @@
 .aboutpage li {
   font-size: 14px;
   font-weight: 300;
-  margin: 5px 0;
   color: rgba(255, 255, 255, 0.774);
+}
+.aboutpage p {
+  margin: 5px 0;
 }
 .aboutpage strong {
   font-weight: 400;
@@ -25,4 +27,7 @@
 }
 .aboutpage * {
   list-style-position: inside;
+}
+li {
+  margin: 10px 0;
 }

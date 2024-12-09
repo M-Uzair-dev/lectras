@@ -13,9 +13,11 @@
     "@emotion/styled": "^11.13.5",
     "@mui/icons-material": "^6.1.10",
     "@mui/material": "^6.1.10",
+    "firebase": "^11.0.2",
     "next": "15.0.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sonner": "^1.7.1"
   },
   "devDependencies": {
     "@types/node": "^20",

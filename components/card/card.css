@@ -60,7 +60,7 @@
   align-items: center;
   justify-content: center;
   background-color: #3030307c;
-  gap: 5px;
+  /* gap: 5px; */
   padding: 5px 10px;
   border-radius: 1000px;
   font-size: 12px;
@@ -76,4 +76,7 @@
 }
 .leftContent p {
   color: rgba(255, 255, 255, 0.534);
+}
+.rightContent {
+  gap: 7px;
 }
