@@ -63,14 +63,14 @@ const page = () => {
       </ul>
       <p>
         At Lectras, we believe education should be flexible, accessible, and
-        rewarding for everyone involved. Whether you're an educator looking to
-        share your expertise or a student seeking quality learning, Lectras is
-        the platform for you.
+        rewarding for everyone involved. Whether you&apos;re an educator looking
+        to share your expertise or a student seeking quality learning, Lectras
+        is the platform for you.
       </p>
       <br />
       <p>
-        <strong>Join Lectras today</strong> and be part of a community that's
-        redefining the way we learn and teach!
+        <strong>Join Lectras today</strong> and be part of a community
+        that&apos;s redefining the way we learn and teach!
       </p>
     </div>
   );
