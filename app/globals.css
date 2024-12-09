@@ -1,21 +1,82 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  color: white;
+}
+.navbar {
+  width: 100vw;
+  height: 60px;
+}
+.main {
+  width: 100vw;
+  overflow-x: hidden;
+  /* min-height: calc(100dvh - 60px); */
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 5vw;
+}
+body {
+  background-color: #101010;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Customize scrollbar  */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+::-webkit-scrollbar-thumb {
+  background: #505050;
+  border-radius: 10px;
+}
+.mainpage {
+  width: 100%;
+}
+.mainpage .cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+  grid-template-rows: 250px;
+  grid-auto-rows: 250px;
+}
+.mainheading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+@media (max-width: 610px) {
+  .searchbar input {
+    width: 100px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.secondarynavbar {
+  width: 90vw;
+  margin: 0px auto 10px;
+  display: none;
+}
+.secondarynavbar .searchbar {
+  padding: 10px;
+  width: 100%;
+}
+
+.secondarynavbar .searchbar input {
+  width: calc(90vw - 60px);
+}
+@media (max-width: 530px) {
+  .navbar .searchbar {
+    display: none;
+  }
+  .secondarynavbar {
+    display: flex;
+  }
 }

@@ -1,0 +1,79 @@
+.card {
+  background-color: #20202077;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card > *:nth-child(1) {
+  flex: 2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card > *:nth-child(2) {
+  flex: 4;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limit to 5 lines */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+.card > *:nth-child(3) {
+  flex: 2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userinfo img {
+  border-radius: 100px;
+  object-fit: cover;
+}
+.username {
+  font-size: 17px;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+.followers {
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.699);
+}
+.card > *:nth-child(3) > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3030307c;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 1000px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.leftContent svg {
+  fill: rgb(21, 243, 21);
+}
+.leftContent p span {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.leftContent p {
+  color: rgba(255, 255, 255, 0.534);
+}

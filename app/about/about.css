@@ -1,0 +1,28 @@
+.aboutpage h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.aboutpage h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px 0 5px;
+}
+.aboutpage p,
+.aboutpage li {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 5px 0;
+  color: rgba(255, 255, 255, 0.774);
+}
+.aboutpage strong {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+.aboutpage {
+  padding: 20px 0;
+}
+.aboutpage * {
+  list-style-position: inside;
+}

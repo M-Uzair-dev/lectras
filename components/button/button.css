@@ -1,0 +1,15 @@
+.buttondiv button {
+  padding: 7px 21px;
+  font-size: 14px;
+  background-color: #485afa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttondiv button:active {
+  transform: scale(0.97);
+}
+.buttondiv button:hover {
+  background-color: #3e51fc;
+}
